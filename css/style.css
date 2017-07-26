@@ -1,0 +1,105 @@
+.navbar-custom{
+    background: #f8f8f8;
+    box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.07000000000000001);
+    border-bottom: none;
+    margin-bottom: 0;
+
+}
+.navbar-custom .navbar-nav li a {
+    color: #232323;
+}
+
+.intro-header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(http://placehold.it/1920x1080) no-repeat center center fixed;
+    background-size: cover;
+}
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+.intro-message > h1, .intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+.btn-custom{
+    background-color: transparent;
+    border: 2px solid #b98a2c !important;
+    padding: 10px 30px;
+    color: #b98a2c;
+}
+.btn-custom:hover{
+    background-color: #b98a2c;
+    color: white;
+}
+.intro-message .btn-custom{
+    margin-top: 30px;
+}
+
+
+.intro{
+    background-color: white;
+    padding:80px 0;
+}
+.intro h2{
+    padding: 0 250px;
+    color: #b98a2c;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.intro p{
+    padding: 0 200px;
+    font-weight: 300;
+    line-height: 36px;
+}
+
+.desc{
+    background-color: #fbf9f4;
+    padding: 10% 50px;
+}
+.desc h2{
+    color: #b98a2c;
+}
+.desc p{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+}
+.fb-page{
+    background-color: #b98a2c;
+    padding:80px 0;
+    color: white;
+}
+.fb-page .btn-custom{
+    background-color: white;
+    margin-top: 20px;
+}
+.fb-page .btn-custom:hover{
+    color: #b98a2c;
+    background-color: #f6f6f6;
+}
+.fb-page .btn-custom .fa{
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+footer{
+    padding: 80px 0;
+    background-color: white;
+}
+footer a{
+    font-size: 20px;
+    color: #b98a2c;
+}
+footer a:hover{
+    text-decoration: none;
+    color: #232323;
+}
+.copyright{
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 30px;
+}
