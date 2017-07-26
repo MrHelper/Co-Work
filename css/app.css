@@ -1,0 +1,153 @@
+body{
+    color: #575144;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Work Sans','Roboto','Lato','Montserrat', sans-serif;
+}
+.cover{
+	padding-top:200px;
+	padding-bottom:200px;
+	background-image: url("http://www.workflexibility.org/wp-content/uploads/2015/12/iStock_000068391845.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size:cover;
+    color:#fff;
+}
+.cover h1{
+	font-size: 40px;
+	text-shadow: 2px 2px 5px #000;
+}
+.cover small{
+	font-size: 20px;
+}
+.section{
+	padding-top:100px;
+	padding-bottom:100px;
+
+}
+.LContent{
+	width: 50%;
+	float: left;
+	height: 400px;
+	overflow: hidden;
+	display: flex;               /* establish flex container */
+    align-items: center;
+}
+.RContent{
+	width: 50%;
+	float: left;
+	height: 400px;
+	overflow: hidden;
+	display: flex;               /* establish flex container */
+    align-items: center;
+}
+.img-height{
+	height: 100%;
+	width: auto;
+}
+.img-width{
+	width: 100%;
+	height: auto;
+}
+.TContent{
+	padding:50px;
+}
+.CTitle{
+	color: #b98a2c;
+	font-weight: bolder;
+}
+.btn.btn-gw {
+    border: 2px solid #b98a2c !important;
+    border-radius: 3px;
+    padding: 7px 58px;
+    font-style: normal;
+    color: #b98a2c;
+    background-color: transparent;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-weight: 400 !important;
+}
+.btn.btn-gw:hover {
+    background-color: #b98a2c;
+    color: #ffffff;
+}
+.btn.btn-ww {
+    border-color: rgba(255, 255, 255, 0.5) !important;
+    border-radius: 3px;
+    padding: 7px 58px;
+    font-style: normal;
+    color: #fff;
+    background-color: transparent;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-weight: 400 !important;
+}
+.btn.btn-ww:hover {
+    border-color: rgba(255, 255, 255, 1) !important;
+    color: #fff;
+}
+.background-image-holder {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover !important;
+    background-position: 50% 50% !important;
+    z-index: 0;
+    transition: 0.3s linear;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    opacity: 0;
+    background: #232323;
+}
+.DontMiss{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(https://go-work.com/wp-content/uploads/2016/06/advantages-home.jpg);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+.LRRow{
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+.bg-gw{
+    background: url(https://go-work.com/wp-content/uploads/2016/06/Events.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: #f4ede0;
+}
+
+.menu > li a {
+    color: #232323;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.2s linear;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+}
+
+.menu > li > a {
+    padding: 0 1.3em;
+    height: 100%;
+    display: inline-block;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: none;
+    color: #8e8e8e;
+}
+.nav>li>a:focus, .nav>li>a {
+    text-decoration: none !important;
+    background-color: transparent !important;
+    color: #232323;
+}
