@@ -1,3 +1,9 @@
+.col-md-offset-left-1{
+    margin-left: 8.333333333%;
+}
+.col-md-offset-left-3{
+    margin-left: 25%;
+}
 .navbar-custom{
     background: #f8f8f8;
     box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.07000000000000001);
@@ -108,7 +114,7 @@ footer a:hover{
     margin-top: 30px;
 }
 
-.plans-pricing-page .navbar-custom{
+.plans-pricing-page .navbar-custom, .contact-page .navbar-custom{
     border-bottom: 1px solid #ccc;
 }
 .plans-pricing-page .page-title{
@@ -178,4 +184,48 @@ td h4, th h4{
 }
 .training td{
     width: 66.666666667%
+}
+.contact-form{
+    padding: 80px 0;
+}
+.contact-form label{
+    margin-top: 20px;
+}
+.contact-form .btn-custom{
+    margin-top: 40px;
+}
+.contact-info{
+    padding: 80px 0;
+    background-color: #f8f8f8;
+}
+.contact-info .title{
+    margin-bottom: 30px;
+}
+.contact-info h4{
+    font-weight: 300;
+}
+.contact-info h3{
+    color: #b98a2c;
+}
+.contact-info p, .contact-info a{
+    font-size: 16px;
+    font-weight: 300;
+}
+.contact-page .fb-page{
+    padding: 30px 0;
+}
+.contact-page .fb-page h3{
+    display: inline-block;
+}
+.contact-page .fb-page .btn-custom{
+    margin-top: -5px;
+    margin-left: 20px;
+}
+.map iframe{
+    width: 100%;
+    height: 500px;
+    pointer-events: none;
+}
+.map iframe.clicked{
+    pointer-events: auto;
 }
