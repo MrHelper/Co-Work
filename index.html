@@ -191,8 +191,14 @@
    
    <script type="text/javascript">
         $(document).ready(function(){
-                $(this).find('.desc').css({'height':$(this).find('img').height(),'maxheight':$(this).find('img').height()});
-
+            function setHeight(){
+                $( '.events .event' ).each(function(){
+                    $(this).find('.desc').css({'height':$(this).find('img').height(),'maxheight':$(this).find('img').height()});
+                });
+            }
+            setHeight();  
+            $(window).resize(function(){
+                setHeight();
             });
         });
     </script>
