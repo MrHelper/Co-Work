@@ -21,7 +21,7 @@
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.6)), url(../img/banner.jpg) no-repeat center center fixed;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(255,255,255,0.1)), url(../img/banner.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 .intro-message {
