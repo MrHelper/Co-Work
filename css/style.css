@@ -47,10 +47,12 @@
 }
 
 
-.intro{
+.intro {
     background-color: white;
-    padding:80px 0;
+    padding: 80px 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.15),rgba(255, 255, 255, 0.57)), url(../img/Unknown-1-1.jpeg) no-repeat center center fixed;
 }
+
 .intro h2{
     padding: 0 250px;
     color: #b98a2c;
@@ -80,12 +82,15 @@
 }
 .fb-page{
     background-color: #b98a2c;
-    padding:80px 0;
+    padding: 80px 0;
     color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0.57)), url(../img/advantages-home.jpg) no-repeat center center fixed;
 }
 .fb-page .btn-custom{
-    background-color: white;
+    background-color: transparent;
     margin-top: 20px;
+    border: 2px solid #ffffff !important;
+    color: #ffffff;
 }
 .fb-page .btn-custom:hover{
     color: #b98a2c;
@@ -126,6 +131,7 @@ footer a:hover{
 }
 .plans-pricing{
     padding: 30px 0 80px 0;
+        background: linear-gradient(rgb(255, 255, 255),rgba(255, 255, 255, 0)), url(https://s-media-cache-ak0.pinimg.com/736x/f4/ac/6a/f4ac6aac3afb587f6cae04155656fca3--white-texture-wordpress-theme.jpg);
 }
 .plans-pricing h2{
     margin-bottom: 30px;
